@@ -1,0 +1,64 @@
+#include<iostream>
+#include<fstream>
+int main()
+{
+std::ofstream fileholder("practice.html");
+fileholder<<"<style>"<<std::endl<<"div{"<<std::endl<<"background-color:red;"<<"}"<<std::endl;
+fileholder<<"#a{"<<std::endl<<"border:1px solid black;"<<std::endl<<"width:150px;"<<std::endl<<"height:50px;"<<std::endl<<"text-align:center;"<<std::endl<<"float:left;"<<std::endl<<"}"<<std::endl;
+fileholder<<"#b{"<<std::endl<<"border:1px solid black;"<<std::endl<<"width:300px;"<<std::endl<<"height:50px;"<<std::endl<<"float:left;"<<std::endl<<"text-align:center;"<<std::endl<<"margin-left:10px;"<<std::endl<<"}"<<std::endl;
+fileholder<<"#c{"<<std::endl<<"border:1px solid black;"<<std::endl<<"width:100px;"<<std::endl<<"height:50px;"<<std::endl<<"float:left;"<<std::endl<<"text-align:center;"<<std::endl<<"margin-left:10px;"<<std::endl<<"}"<<std::endl;
+fileholder<<"#d{"<<std::endl<<"border:1px solid black;"<<std::endl<<"width:300px;"<<std::endl<<"height:50px;"<<std::endl<<"float:left;"<<std::endl<<"text-align:center;"<<std::endl<<"margin-left:10px;"<<std::endl<<"}"<<std::endl;
+fileholder<<"#e{"<<std::endl<<"border:1px solid black;"<<std::endl<<"width:150px;"<<std::endl<<"height:50px;"<<std::endl<<"text-align:center;"<<std::endl<<"float:left;"<<std::endl<<"}"<<std::endl;
+fileholder<<"#f{"<<std::endl<<"border:1px solid black;"<<std::endl<<"width:300px;"<<std::endl<<"height:50px;"<<std::endl<<"text-align:center;"<<std::endl<<"float:left;"<<std::endl<<"margin-left:10px;"<<std::endl<<"}"<<std::endl;
+fileholder<<"#g{"<<std::endl<<"border:1px solid black;"<<std::endl<<"width:100px;"<<std::endl<<"height:50px;"<<std::endl<<"text-align:center;"<<std::endl<<"float:left;"<<std::endl<<"margin-left:10px;"<<std::endl<<"}"<<std::endl;
+fileholder<<"#h{"<<std::endl<<"border:1px solid black;"<<std::endl<<"width:300px;"<<std::endl<<"height:50px;"<<std::endl<<"text-align:center;"<<std::endl<<"float:left;"<<std::endl<<"margin-left:10px;"<<std::endl<<"}"<<std::endl;
+fileholder<<"#i{"<<std::endl<<"border:1px solid black;"<<std::endl<<"width:150px;"<<std::endl<<"height:50px;"<<std::endl<<"text-align:center;"<<std::endl<<"float:left;"<<std::endl<<"}"<<std::endl;
+fileholder<<"#j{"<<std::endl<<"border:1px solid black;"<<std::endl<<"width:300px;"<<std::endl<<"height:50px;"<<std::endl<<"text-align:center;"<<std::endl<<"float:left;"<<std::endl<<"margin-left:10px;"<<std::endl<<"}"<<std::endl;
+fileholder<<"#k{"<<std::endl<<"border:1px solid black;"<<std::endl<<"width:100px;"<<std::endl<<"height:50px;"<<std::endl<<"text-align:center;"<<std::endl<<"float:left;"<<std::endl<<"margin-left:10px;"<<std::endl<<"}"<<std::endl;
+fileholder<<"#l{"<<std::endl<<"border:1px solid black;"<<std::endl<<"width:300px;"<<std::endl<<"height:50px;"<<std::endl<<"text-align:center;"<<std::endl<<"float:left;"<<std::endl<<"margin-left:10px;"<<std::endl<<"}"<<std::endl;
+fileholder<<"#m{"<<std::endl<<"border:1px solid black;"<<std::endl<<"width:150px;"<<std::endl<<"height:50px;"<<std::endl<<"text-align:center;"<<std::endl<<"float:left;"<<std::endl<<"}"<<std::endl;
+fileholder<<"#n{"<<std::endl<<"border:1px solid black;"<<std::endl<<"width:300px;"<<std::endl<<"height:50px;"<<std::endl<<"text-align:center;"<<std::endl<<"float:left;"<<std::endl<<"margin-left:10px;"<<std::endl<<"}"<<std::endl;
+fileholder<<"#o{"<<std::endl<<"border:1px solid black;"<<std::endl<<"width:100px;"<<std::endl<<"height:50px;"<<std::endl<<"text-align:center;"<<std::endl<<"float:left;"<<std::endl<<"margin-left:10px;"<<std::endl<<"}"<<std::endl;
+fileholder<<"#p{"<<std::endl<<"border:1px solid black;"<<std::endl<<"width:300px;"<<std::endl<<"height:50px;"<<std::endl<<"text-align:center;"<<std::endl<<"float:left;"<<std::endl<<"margin-left:10px;"<<std::endl<<"}"<<std::endl;
+fileholder<<"#q{"<<std::endl<<"border:1px solid black;"<<std::endl<<"width:150px;"<<std::endl<<"height:50px;"<<std::endl<<"text-align:center;"<<std::endl<<"float:left;"<<std::endl<<"}"<<std::endl;
+fileholder<<"#r{"<<std::endl<<"border:1px solid black;"<<std::endl<<"width:300px;"<<std::endl<<"height:50px;"<<std::endl<<"text-align:center;"<<std::endl<<"float:left;"<<std::endl<<"margin-left:10px;"<<std::endl<<"}"<<std::endl;
+fileholder<<"#s{"<<std::endl<<"border:1px solid black;"<<std::endl<<"width:100px;"<<std::endl<<"height:50px;"<<std::endl<<"text-align:center;"<<std::endl<<"float:left;"<<std::endl<<"margin-left:10px;"<<std::endl<<"}"<<std::endl;
+fileholder<<"#t{"<<std::endl<<"border:1px solid black;"<<std::endl<<"width:300px;"<<std::endl<<"height:50px;"<<std::endl<<"text-align:center;"<<std::endl<<"float:left;"<<std::endl<<"margin-left:10px;"<<std::endl<<"}"<<std::endl;
+fileholder<<"#u{"<<std::endl<<"border:1px solid black;"<<std::endl<<"width:150px;"<<std::endl<<"height:50px;"<<std::endl<<"text-align:center;"<<std::endl<<"float:left;"<<std::endl<<"}"<<std::endl;
+fileholder<<"#v{"<<std::endl<<"border:1px solid black;"<<std::endl<<"width:300px;"<<std::endl<<"height:50px;"<<std::endl<<"text-align:center;"<<std::endl<<"float:left;"<<std::endl<<"margin-left:10px;"<<std::endl<<"}"<<std::endl;
+fileholder<<"#w{"<<std::endl<<"border:1px solid black;"<<std::endl<<"width:100px;"<<std::endl<<"height:50px;"<<std::endl<<"text-align:center;"<<std::endl<<"float:left;"<<std::endl<<"margin-left:10px;"<<std::endl<<"}"<<std::endl;
+fileholder<<"#x{"<<std::endl<<"border:1px solid black;"<<std::endl<<"width:300px;"<<std::endl<<"height:50px;"<<std::endl<<"text-align:center;"<<std::endl<<"float:left;"<<std::endl<<"margin-left:10px;"<<std::endl<<"}"<<std::endl;
+fileholder<<"</style>"<<std::endl;
+fileholder<<"<body style=\"background-color:yellow\">"<<std::endl;
+fileholder<<"<div id=\"a\">CODE NO.</div>"<<std::endl;
+fileholder<<"<div id=\"b\">Food.</div>"<<std::endl;
+fileholder<<"<div id=\"c\">Images</div>"<<std::endl;
+fileholder<<"<div id=\"d\">Price</div>"<<std::endl;
+fileholder<<"<br><br><br>"<<std::endl;
+fileholder<<"<div id=\"e\">abc-001</div>"<<std::endl;
+fileholder<<"<div id=\"f\">Chicken Karahi</div>"<<std::endl;
+fileholder<<"<div id=\"g\">Chicken Karahi</div>"<<std::endl;
+fileholder<<"<div id=\"h\">1000/=</div>"<<std::endl;
+fileholder<<"<br><br><br>"<<std::endl;
+fileholder<<"<div id=\"i\">abc-002</div>"<<std::endl;
+fileholder<<"<div id=\"j\">Chicken Sandwich</div>"<<std::endl;
+fileholder<<"<div id=\"k\">Chicken Sandwich</div>"<<std::endl;
+fileholder<<"<div id=\"l\">500/=</div>"<<std::endl;
+fileholder<<"<br><br><br>"<<std::endl;
+fileholder<<"<div id=\"m\">abc-003</div>"<<std::endl;
+fileholder<<"<div id=\"n\">Club Sandwich</div>"<<std::endl;
+fileholder<<"<div id=\"o\">Club Sandwich</div>"<<std::endl;
+fileholder<<"<div id=\"p\">400/=</div>"<<std::endl;
+fileholder<<"<br><br><br>"<<std::endl;
+fileholder<<"<div id=\"q\">abc-004</div>"<<std::endl;
+fileholder<<"<div id=\"r\">Chicken Twister</div>"<<std::endl;
+fileholder<<"<div id=\"s\">Chicken twister</div>"<<std::endl;
+fileholder<<"<div id=\"t\">750/=</div>"<<std::endl;
+fileholder<<"<br><br><br>"<<std::endl;
+fileholder<<"<div id=\"u\">abc-005</div>"<<std::endl;
+fileholder<<"<div id=\"v\">Zinger Burger</div>"<<std::endl;
+fileholder<<"<div id=\"w\">Zinger Burger</div>"<<std::endl;
+fileholder<<"<div id=\"x\">250/=</div>"<<std::endl;
+fileholder<<"</body>"<<std::endl;
+fileholder.close();
+}
