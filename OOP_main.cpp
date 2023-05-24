@@ -1,6 +1,8 @@
-#include"guess.h"
+#include<iostream>
+#include"car.h"
 int main()
 {
-	guess g;
-	g.run();
+	engine e(1200);
+	car c(e,4,2011,"red");
+	c.display();
 }
